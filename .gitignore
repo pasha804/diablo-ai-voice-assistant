@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Environments & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python virtual environments & bytecode
+venv/
+.venv/
+env/
+Lib/
+Scripts/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archives & Large Files
+*.rar
+*.tar.gz
+*.7z
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+npm-debug.log*
+
+# Project-specific exclusions
+*.pyc
